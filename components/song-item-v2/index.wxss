@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin: 36rpx 0 10rpx;
+  position: relative;
+}
+
+.index {
+  font-size: 30rpx;
+  padding: 0 12rpx;
+  position: absolute;
+  top: 0;
+}
+
+.info {
+  flex: 1;
+  margin-left: 66rpx;
+}
+
+.info .name {
+  font-size: 30rpx;
+}
+
+.info .source {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+
+.source .icon {
+  width: 38rpx;
+  height: 22rpx;
+  margin-right: 10rpx;
+}
+
+.source .dots {
+  margin: 0 12rpx 0 4rpx;
+}

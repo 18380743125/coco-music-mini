@@ -1,0 +1,10 @@
+<area-header title="{{name}}" showRight="{{false}}">
+  <view slot='center'>歌曲详情</view>
+</area-header>
+
+<view class="song-list">
+  <block wx:for="{{songList}}" wx:key="id">
+    <song-item-v2 item="{{item}}" idx="{{index}}" data-index="{{index}}" bindtap="handleSongItemClick" />
+  </block>
+</view>
+<view class="bottom-placeholder"></view>

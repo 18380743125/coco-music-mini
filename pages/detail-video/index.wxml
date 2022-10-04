@@ -1,0 +1,1 @@
+<video class="video" src="{{mvURLInfo.url}}" autoplay referrer-policy="origin"></video>

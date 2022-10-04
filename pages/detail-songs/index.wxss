@@ -1,0 +1,12 @@
+page {
+  padding: 6rpx 20rpx;
+}
+
+.bottom-placeholder {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 54rpx;
+  width: 100%;
+  background-color: #ffffff;
+}

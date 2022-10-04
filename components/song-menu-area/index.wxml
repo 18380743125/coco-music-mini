@@ -1,0 +1,11 @@
+<area-header title="{{title}}" />
+
+<!-- 设置宽度为屏幕宽度 -->
+<!-- <scroll-view scroll-x class="menu-list" style="width: {{screenWidth}}px;"> -->
+<scroll-view scroll-x class="menu-list">
+  <block wx:for="{{songMenu}}" wx:key="id">
+    <view class="menu-item" bindtap="handleMenuItemClick" data-item="{{item}}">
+      <song-menu-item item="{{item}}" />
+    </view>
+  </block>
+</scroll-view>

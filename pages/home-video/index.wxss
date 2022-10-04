@@ -1,0 +1,10 @@
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item {
+  width: 48%;
+  margin-bottom: 10rpx;
+}

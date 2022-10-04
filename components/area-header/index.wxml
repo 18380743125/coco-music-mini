@@ -1,0 +1,12 @@
+<view class="header">
+  <view class="title">{{title}}</view>
+  <view class="right" wx:if="{{showRight}}" bindtap="handleRightClick">
+  <!-- 插槽 -->
+    <view class="slot"><slot></slot></view>
+    <!-- 未传入 children 时, 显示出来 -->
+    <view class="default">
+      <text>{{rightText}}</text>
+      <image class="icon" src="/assets/images/icons/arrow-right.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+.nav-bar {
+  display: flex;
+  height: 44px;
+  text-align: center;
+}
+.left, .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120rpx;
+}
+/* 左边区域 */
+.left .left-arrow {
+  display: none;
+}
+.left .left-arrow .icon {
+  width: 46rpx;
+}
+.left-slot:empty + .left-arrow {
+  display: block;
+}
+/* 中间区域 */
+.center {
+  flex: 1;
+  line-height: 44px;
+}
+.center .center-title {
+  display: none;
+}
+.center-slot:empty + .center-title {
+  display: block;
+}

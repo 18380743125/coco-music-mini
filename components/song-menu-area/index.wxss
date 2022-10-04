@@ -1,0 +1,16 @@
+.menu-list {
+  white-space: nowrap;
+  /* 直接设置宽度 */
+  width: 100vw;
+  position: relative;
+  left: -20rpx;
+}
+.menu-list:last-of-type {
+  margin-right: 20rpx;
+}
+.menu-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20rpx;
+  width: 220rpx;
+}
